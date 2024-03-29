@@ -30,7 +30,7 @@ console.log(result); // Output: "105"
 // Boolean(): Converts a value to a boolean.
 
 let str0 = "123";
-let num = parseInt(str); // Explicitly converts str to an integer
+let num = parseInt(str0); // Explicitly converts str to an integer
 console.log(num); // Output: 123
 
 
@@ -48,7 +48,7 @@ console.log(num); // Output: 123
 
 let num2 = 5;
 let str1 = "Number is: " + num; // Here, num (a number) is implicitly converted to a string
-console.log(str); // Output: "Number is: 5"
+console.log(str1); // Output: "Number is: 5"
 
 
 // In this example, the addition operation (+) involves a string and a number. JavaScript automatically converts the number num to a string so that it can be concatenated with the other string.
@@ -66,8 +66,8 @@ console.log(str); // Output: "Number is: 5"
 // For example:
 
 
-let str = "123";
-let num3 = parseInt(str); // Explicitly converts str to an integer
+let str4 = "123";
+let num3 = parseInt(str4); // Explicitly converts str to an integer
 console.log(num3); // Output: 123
 
 // In this example, the parseInt() function is used to explicitly convert the string "123" to an integer.
@@ -76,3 +76,6 @@ console.log(num3); // Output: 123
 // Implicit type conversion is performed automatically by the language, while explicit type conversion requires manual intervention from the programmer.
 // Implicit type conversion can sometimes lead to unexpected results or errors if not handled carefully.
 // Explicit type conversion provides more control over the conversion process and can help improve code clarity and reliability.
+ 
+let a = {}
+console.log(typeof(a))
