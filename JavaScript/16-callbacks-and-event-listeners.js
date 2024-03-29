@@ -33,7 +33,7 @@ Always use async for functions that take time eg. setTimeout
 Event Listener
 
 When we create a button in HTML and attack a clickListener in JS :
-js
+
 
 in index.html
 

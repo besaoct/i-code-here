@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 /*
 
 In JavaScript, objects and prototypal inheritance are fundamental concepts that form the basis of the language's object-oriented programming model. Let's break down each of these concepts:

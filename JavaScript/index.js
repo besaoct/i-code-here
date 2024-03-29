@@ -554,3 +554,22 @@ After processing all users, the accumulator object (countUage) contains counts o
 
 //------------callbacks & callback hell------------ 28th march
 
+// inversion of control
+
+
+//promises
+
+const GitHubAPI = "https://api.github.com/users/besaoct"
+
+const user = fetch(GitHubAPI)
+
+console.log(user)
+
+user.then(
+    function(data){
+       console.log(data)
+    }
+)
+
+
+//promise apis
