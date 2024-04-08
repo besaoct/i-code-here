@@ -1,6 +1,6 @@
 /**
  * Callbacks and Event Listeners
-Callback Function : Functions are first class citizens (see prev lecture) ie. take a fun A and pass it to another fun B. Here, A is a callback function
+Callback Function : Functions are first class citizens (see prev lecture) ie. take a func A and pass it to another fun B. Here, A is a callback function
 
 JS is a synchronous and singlethreaded language. But due to callbacks, we can do async things in JS.
 setTimeout(function () {}, 1000) -> here the anony function is a callback function as it is passed to setT and called sometime later in code after certain time (here 1000ms).

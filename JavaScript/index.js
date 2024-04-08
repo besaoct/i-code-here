@@ -559,17 +559,61 @@ After processing all users, the accumulator object (countUage) contains counts o
 
 //promises
 
-const GitHubAPI = "https://api.github.com/users/besaoct"
+// const GitHubAPI = "https://api.github.com/users/besaoct"
 
-const user = fetch(GitHubAPI)
+// const user = fetch(GitHubAPI)
 
-console.log(user)
+// console.log(user)
 
-user.then(
-    function(data){
-       console.log(data)
+// user.then(
+//     function(data){
+//        console.log(data)
+//     }
+// )
+
+
+//revision
+
+
+// function x(){
+//     for(let i = 1; i<=5; i++){
+//       setTimeout(function() {
+//         console.log(i);
+//        }, i*1000);
+//       }
+//       console.log("This is Shafin");
+//     }
+
+//     x()
+
+// function counter(){
+//        let count=0;
+
+//     function x(){
+//        let count=0;
+//        console.log(`inside function ${count}`)
+//        return count++
+//     }
+
+//     return x
+// }
+
+// let c = counter()
+// c()
+// c()
+// c()
+
+
+function counter() {
+    var count = 0;
+    return function increment(){
+        console.log(count);
+          count++;
     }
-)
+  }
 
-
-//promise apis
+ let c = counter
+c()()
+ c()()
+ c()()
+ c()()  
